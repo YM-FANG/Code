@@ -17,6 +17,7 @@ node {
     }
 
     stage('pull code') {
+         sh ("cd /home")
          sh ("git clone ${repositoryUrl}")
     }
 
