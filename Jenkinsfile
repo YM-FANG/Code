@@ -13,7 +13,8 @@ node {
 
 
     stage ('ready go') {
-
+        sh ("cd /home")
+         sh ("rm -rf code")
     }
 
     stage('pull code') {
