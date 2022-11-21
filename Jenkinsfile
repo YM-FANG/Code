@@ -20,6 +20,7 @@ node {
     stage('pull code') {
          sh ("cd /home")
          sh ("git clone ${repositoryUrl}")
+         sh ("cd Code")
          sh ("git checkout ${branch}") 
     }
      stage('push code') {
