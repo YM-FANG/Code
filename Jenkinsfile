@@ -18,11 +18,9 @@ node {
     }
 
     stage('pull code') {
-         sh ("cd /home")
-         sh ("git clone ${repositoryUrl}")
-          sh ("cd /home/Code/")
-        sh ("git init")
-        sh ("git checkout  ${branch}")
+      
+         sh ("cd /home && git clone ${repositoryUrl} &&  cd Code/ && git checkout  ${branch}")
+      
      
     }
      stage('push code') {
