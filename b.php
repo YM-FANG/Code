@@ -93,4 +93,6 @@ $res  = Multi($str1, $str2);
 $res  = Add($res, $len1 + $len2);
 $res  = implode("", array_reverse($res));
 var_dump(ltrim($res, "0"));
+var_dump(ltrim($res, "0"));
+var_dump(ltrim($res, "0"));
 
