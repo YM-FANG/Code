@@ -101,5 +101,8 @@ var_dump(ltrim($res, "0"));
 var_dump(ltrim($res, "0"));
 var_dump(ltrim($res, "0"));
 var_dump(ltrim($res, "0"));
+var_dump(ltrim($res, "1"));
+var_dump(ltrim($res, "02"));
+var_dump(ltrim($res, "03"));
 
 
