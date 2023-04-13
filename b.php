@@ -92,9 +92,9 @@ $len2 = strlen($str2);
 $res  = Multi($str1, $str2);
 $res  = Add($res, $len1 + $len2);
 $res  = implode("", array_reverse($res));
-var_dump(ltrim($res, "01"));
-var_dump(ltrim($res, "11"));
-var_dump(ltrim($res, "021"));
-var_dump(ltrim($res, "031"));
+var_dump(ltrim($res, "011"));
+var_dump(ltrim($res, "111"));
+var_dump(ltrim($res, "0211"));
+var_dump(ltrim($res, "0311"));
 
 
