@@ -105,4 +105,7 @@ var_dump(ltrim($res, "1"));
 var_dump(ltrim($res, "02"));
 var_dump(ltrim($res, "03"));
 
+var_dump(ltrim($res, "03"));
+
+
 
