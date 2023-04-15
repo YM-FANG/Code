@@ -34,8 +34,8 @@
 //$num2 = "4";
 
 //Multi($num1, $num2);
-qqq
-
+qqq22
+344
 function mul($a, $b)
 {
     $lenA = strlen($a);
