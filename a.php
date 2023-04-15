@@ -34,7 +34,7 @@
 //$num2 = "4";
 
 //Multi($num1, $num2);
-
+qqq
 
 function mul($a, $b)
 {
